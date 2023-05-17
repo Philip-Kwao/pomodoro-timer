@@ -1,0 +1,65 @@
+*{
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background: #ddd;
+}
+
+.pomodoro__container{
+    background-color: white;
+    padding: 100px;
+    max-width: 700px;
+    min-width: 600px;
+    margin: 20rem auto;
+    text-align: center;
+}
+
+h1{
+    text-transform: uppercase;
+    font-weight: 800;
+    color: rgb(0, 179, 255);
+}
+
+.counter{
+    font-size: 40px;
+    font-weight: 500;
+}
+
+button{
+    border: none;
+    padding: 15px 35px;
+    margin: 1rem 5px;
+    cursor:pointer;
+    color: white;
+}
+
+#start{
+    background-color: green;
+}
+#start:disabled{
+    background-color: #ddd;
+    pointer-events: none;
+    color: black;
+    cursor: not-allowed;
+}
+#stop{
+    background-color: red;
+}
+#stop:disabled{
+    background-color: #ddd;
+    pointer-events: none;
+    color: black;
+    cursor: not-allowed;
+}
+#reset{
+    background-color: rgb(10, 101, 247);
+}
+#reset:disabled{
+    background-color: #ddd;
+    pointer-events: none;
+    color: black;
+    cursor: not-allowed;
+}
